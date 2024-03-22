@@ -1,0 +1,17 @@
+name: ManusStaffPro
+version: '${project.version}'
+main: me.manu.manusstaffpro.ManusStaffPro
+api-version: '1.20'
+softdepend:
+  - SuperVanish
+
+commands:
+  staffmode:
+    description: Enter Staffmode
+    usage: /staffmode
+    permission: staffpro.staffmode
+
+  addmember:
+    description: Add new StaffMember
+    usage: /addmember
+    permission: staffpro.addmember
